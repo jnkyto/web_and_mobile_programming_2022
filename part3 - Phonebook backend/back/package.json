@@ -1,0 +1,26 @@
+{
+  "name": "phonebook",
+  "version": "1.1.0",
+  "description": "DTEK2040 Part 3 Phonebook",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "watch": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joona Kytöniemi",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.10"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "engines": {
+    "node": "^16.14.2",
+    "npm": "^8.6.0"
+  }
+}

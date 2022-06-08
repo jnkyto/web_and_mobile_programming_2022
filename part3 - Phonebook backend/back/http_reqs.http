@@ -1,0 +1,16 @@
+# RESTing testing
+
+### Add a new person
+POST https://hscback.herokuapp.com/api/persons
+content-type: application/json
+
+{
+  "name": "Mike Jones",
+  "number": "281-330-8004"
+}
+
+### Remove a person
+DELETE https://hscback.herokuapp.com/api/persons/2
+
+### Get a person
+GET https://hscback.herokuapp.com/api/persons/1
